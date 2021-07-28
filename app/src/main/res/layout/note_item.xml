@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ni_isImportant"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorImportant"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/ni_noteContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/ni_noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Noi dung"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:id="@+id/ni_noteCreatedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Ngay tao"
+            android:layout_marginBottom="3dp"/>
+    </LinearLayout>
+</LinearLayout>
